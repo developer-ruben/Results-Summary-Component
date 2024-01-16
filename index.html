@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="summary-component">
+        <section class="result">
+          <h2 class="result__title">Your Result</h2>
+
+          <div class="result__circle">
+            76
+            <span class="result__circle-text"> of 100</span>
+          </div>
+
+          <span class="result__string"> Great </span>
+          <p class="result__text">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </section>
+
+        <section class="summary">
+          <h2 class="summary__title">Summary</h2>
+
+          <ul class="summary__list">
+            <li class="summary__item summary__item--red">
+              <img src="./assets//images/icon-reaction.svg" alt="" />
+              <span>Reaction</span>
+
+              <span class="summary__value"
+                >80 <span class="summary__out-of">&nbsp;/ 100</span></span
+              >
+            </li>
+            <li class="summary__item summary__item--yellow">
+              <img src="./assets//images/icon-memory.svg" alt="" />
+              <span>Memory</span>
+              <span class="summary__value"
+                >92 <span class="summary__out-of">&nbsp;/ 100</span></span
+              >
+            </li>
+            <li class="summary__item summary__item--teal">
+              <img src="./assets//images/icon-verbal.svg" alt="" />
+              <span>Verbal</span>
+              <span class="summary__value"
+                >61 <span class="summary__out-of">&nbsp;/ 100</span></span
+              >
+            </li>
+            <li class="summary__item summary__item--blue">
+              <img src="./assets//images/icon-visual.svg" alt="" />
+              <span>Visual</span>
+              <span class="summary__value"
+                >72 <span class="summary__out-of">&nbsp;/ 100</span></span
+              >
+            </li>
+          </ul>
+          <button class="summary-component__button">Continue</button>
+        </section>
+      </div>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a
+        class="attribution__link"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a class="attribution__link" href="https://rubendeman.nl" target="_blank"
+        >Ruben de Man</a
+      >.
+    </footer>
+  </body>
+</html>
